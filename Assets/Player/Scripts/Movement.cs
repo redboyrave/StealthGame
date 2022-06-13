@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class Movement : MonoBehaviour
 {
     public CharacterController c_ctrler;
     public Transform cam;
+    public SphereCollider col;
     public float speed = 5f;
     public float turn_speed = 0.1f; 
     private float turn_speed_velocity;
@@ -19,8 +21,19 @@ public class Movement : MonoBehaviour
         _input = new InputMaster(); //new Instance of the InputSystem
     }
 
+    private void Start(){
+    _input.Player.Fire.performed += sound_debug;
+
+    }
+
+    private void sound_debug(InputAction.CallbackContext obj)
+    {
+        MakeNoise soundmaker = col.GetComponent<MakeNoise>();
+        soundmaker.Call_Noise(UnityEngine.Random.Range(5,50));
+    }
     private void OnEnable(){
         _input.Player.Enable(); //Enables the Input
+
     }
     private void OnDisable(){
         _input.Player.Disable(); //Disables the Input
