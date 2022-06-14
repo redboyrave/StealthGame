@@ -6,14 +6,17 @@ public class MakeNoise : MonoBehaviour
 
 {
     public float noise_duration = .1f;
-    public SphereCollider col;
+    public PlayerInfo p_info;
 
     private bool making_noise= false;
     private float t = 0f;
-    private float no_noise = 0.05f;
+    private float no_noise = 0f;
     // Start is called before the first frame update
 
-    public void Call_Noise(float VolumeRadius){
+    private void Start(){
+        end_noise(); //Sets noise to minimum by default.
+    }
+    public void Call_Noise(float VolumeRadius){ //Method to be used when you can to make a sound
         making_noise = true;
         make_noise(VolumeRadius);
     }
@@ -26,13 +29,15 @@ public class MakeNoise : MonoBehaviour
         }
     }
     private void make_noise(float vol_rad){
-        Debug.Log("I'm making a noise with radius "+vol_rad+" for "+ noise_duration + " seconds");
-        col.radius = vol_rad;
+        t=0f; //Resets time everytime de method is called, so the noise will continue has long has the method is called.
+        if (!(p_info.NoiseLevel == vol_rad)){
+            p_info.NoiseLevel = vol_rad;
+        }
     }
     
     private void end_noise(){
-        Debug.Log("I'm done with my noise");
-        col.radius = no_noise;
+        // Debug.Log("I'm done with my noise");
+        p_info.NoiseLevel = no_noise;
         making_noise = false;
         t=0;
     }
