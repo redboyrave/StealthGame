@@ -15,11 +15,11 @@ C:/Users/gabri/Documents/Unity/StealthGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49375
+55382
 Successfully changed project path to: C:/Users/gabri/Documents/Unity/StealthGame
 C:/Users/gabri/Documents/Unity/StealthGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,854 +35,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001411 seconds.
+Registered in 0.001305 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.503 seconds
+- Completed reload, in  0.508 seconds
 Domain Reload Profiling:
-	ReloadAssembly (503ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (508ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (386ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (403ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (155ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (161ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002874 seconds.
+Registered in 0.003045 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 97.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.865 seconds
+- Completed reload, in  1.544 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1866ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1683ms)
-			LoadAssemblies (130ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (982ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (764ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.8 MB.
-System memory in use after: 156.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3969.
-Total: 4.328700 ms (FindLiveObjects: 0.466700 ms CreateObjectMapping: 0.169000 ms MarkObjects: 3.487600 ms  DeleteObjects: 0.204700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Player/New_Imports/Mixamo
-  artifactKey: Guid(808d33afcf82dec48af9b6458b68de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo using Guid(808d33afcf82dec48af9b6458b68de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5eb0706575413d9815c5a20fdd0e26') in 0.028677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.720785 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971cd6f42a91f2792824403a48b8b0ee') in 0.368590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx
-  artifactKey: Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx using Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5166fc6757c8e4ee7fabc05b76d91a2') in 0.076250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Run.fbx
-  artifactKey: Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Run.fbx using Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8436bf0592a5591856b2cf9c2d90ffb') in 0.072985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx
-  artifactKey: Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx using Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a547705032e9313ce01fbcb65057ba7') in 0.101356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx
-  artifactKey: Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx using Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55efbb29983727b38fc3f7cedd08b9c2') in 0.058227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx
-  artifactKey: Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx using Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28069d2921c38e81b8d02d11d365ac4f') in 0.084347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx
-  artifactKey: Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx using Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615bda3ea07bc90990924b4b1a15cf65') in 0.079179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx
-  artifactKey: Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx using Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718489013b6d41a2a181f49f9438d056') in 0.028956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx
-  artifactKey: Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx using Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dc2db8ebbdd7f34ada1584e71b3da9') in 0.055501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx
-  artifactKey: Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx using Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf712431a03a1b648ba75f8b946b929') in 0.060935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx
-  artifactKey: Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx using Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fff42a69680839c5ba841149d605a91') in 0.074036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx
-  artifactKey: Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx using Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab774dd251a3c1b8326493dbd981d27') in 0.069332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.381926 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx
-  artifactKey: Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx using Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe090b3ee02d5f26715589cc0c386249') in 0.108245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx
-  artifactKey: Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx using Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e51378ed9289d4cbae8357db42ee68d') in 0.107060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Run.fbx
-  artifactKey: Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Run.fbx using Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a329480a611da21af0fe2f76b27922') in 0.082572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx
-  artifactKey: Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx using Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9255a6db845d2b26fb6b3d312e2fce70') in 0.067831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx
-  artifactKey: Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx using Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7e8ed2a3a56cd73bb628de2c6d21bb') in 0.058510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx
-  artifactKey: Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx using Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0435d5de6fbaf3ddfabada9f8963b96c') in 0.067870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx
-  artifactKey: Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx using Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdbe0e1def0e77a5fdc6f34271b767e') in 0.028262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx
-  artifactKey: Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx using Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1816685bf9861370167a16006c850f') in 0.062418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx
-  artifactKey: Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx using Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0aca3747da7127084d5a4457b3dbb8') in 0.067191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx
-  artifactKey: Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx using Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f11389cd96a9d5bb836ad1c636cef83') in 0.067809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddee290db2ead24d0655d2528a5bf75') in 0.074809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx
-  artifactKey: Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx using Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1962ab0c357d317f880e0563eaf267ec') in 0.062474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.685701 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da7bbd3f070fec428eb40ed048db4f7') in 0.120552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.482909 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8534982bcdb935cb5969ca8b6f35d68a') in 0.110755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx
-  artifactKey: Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx using Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c26ae427a74a8c6f4baabf87437a56') in 0.105716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Run.fbx
-  artifactKey: Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Run.fbx using Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0044c6952add011568037fabe440b6f0') in 0.068941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx
-  artifactKey: Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx using Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36870a2beb624db0864344c7c686d840') in 0.065845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx
-  artifactKey: Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx using Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b1a1a9e0e22103399fa4397224774e') in 0.066480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx
-  artifactKey: Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx using Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996dccca0e14b0a1f7354b06c3f6e1fb') in 0.057822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx
-  artifactKey: Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx using Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900857cd12e2263137ec81d11f674ac9') in 0.064898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx
-  artifactKey: Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx using Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80ac205ab7957ae582f055937f2d3d1') in 0.028576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx
-  artifactKey: Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx using Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5a3150cea995271b8c75c6edfcc0b0') in 0.059506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx
-  artifactKey: Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx using Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d42121711948087b6e0e25f79721264') in 0.065986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx
-  artifactKey: Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx using Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4078f22e56be835b02fc0359d3bdabe9') in 0.071533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx
-  artifactKey: Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx using Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0e990820b8df4572e31208a6c3cc13') in 0.080768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.593152 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5adbd8a1f03ad8602ca41a67b65dd47') in 0.107008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.142071 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Run.fbx
-  artifactKey: Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Run.fbx using Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cab109f7c13b06c5c9a5144d23584c') in 0.105687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.370211 seconds.
-  path: Assets/Player/New_Imports/Mixamo/RunAvatar.asset
-  artifactKey: Guid(1e4a3de62a156be40b47e2af3c60f6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/RunAvatar.asset using Guid(1e4a3de62a156be40b47e2af3c60f6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89be0561f83b68e2669ea07cdcdd4ff2') in 0.031124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.042481 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd1732bf105ac951be39f2722bc216d') in 0.089704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx
-  artifactKey: Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx using Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4e97ca54efbc83f69caad0edf3b446') in 0.097674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000587 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Run.fbx
-  artifactKey: Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Run.fbx using Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b734b096b6ecadb4f347fa7ba88c51') in 0.074233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx
-  artifactKey: Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx using Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e78057905b8928f34bbdb837442d582') in 0.071892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx
-  artifactKey: Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx using Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967ff3dac62c8c509a3c1bc305cd3439') in 0.072443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx
-  artifactKey: Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx using Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72ea436fb3961433aaf16ca564ef1f0') in 0.057964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx
-  artifactKey: Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx using Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962c13ba97eb8d76d4bd0d74c49f9917') in 0.066605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx
-  artifactKey: Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx using Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a762abb165822571ef900ea380e40e1d') in 0.028386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx
-  artifactKey: Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx using Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641cdfad93579fb73d7df2a919dc8157') in 0.059942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx
-  artifactKey: Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx using Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a2421e279ac41675ece2fc9e0189f6') in 0.059314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx
-  artifactKey: Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx using Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1039e1a613f4b0ba666a6142e10952') in 0.069848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx
-  artifactKey: Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx using Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2268b2245b87329ad0912c859da665') in 0.071586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.147144 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx
-  artifactKey: Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx using Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa216de0f3cb34f42f761d70c971d6a') in 0.088935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx
-  artifactKey: Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx using Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e75c8703b6512de8d4205c718417e2') in 0.108845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx
-  artifactKey: Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx using Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b333c762d4347a42ccd168759da8db1') in 0.100970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx
-  artifactKey: Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx using Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c669900dff1ed6964b09ef2b2aea28') in 0.081383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx
-  artifactKey: Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx using Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2cd3913d23eea0daee353370c69eef') in 0.065812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx
-  artifactKey: Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx using Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885c92170f22f9dfeb7ffea1b5075bbc') in 0.068775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx
-  artifactKey: Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx using Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca202bfffd53a01075c76ab1b22db880') in 0.029157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx
-  artifactKey: Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Sneaking Left.fbx using Guid(eff183f10e8ebc040aaec5aa1cb8ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9947b9ab01365fa4e001b4b9511fb5') in 0.065815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx
-  artifactKey: Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx using Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376c69e685de26b19fd153b18153b8ee') in 0.060632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx
-  artifactKey: Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx using Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666a42f234b3c7f68ac8d60d61e316c8') in 0.072700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.900437 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f440ae6cc6fe5294a05ff11b0bb0eb') in 0.100196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.524615 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2a3ce632a85b32617c0d525dc4a23d') in 0.125165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.986083 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02522916aed056a22f7366b5dca191f6') in 0.107675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.289096 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f955767f00b26c2ad7806a982e6df7b6') in 0.087503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.319538 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx
-  artifactKey: Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx using Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa7c79d13bf6ffd184ce91cb61f169e') in 0.085700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.589662 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx
-  artifactKey: Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx using Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d92f2442800993acb3284ecd010168') in 0.136459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.713273 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx
-  artifactKey: Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx using Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a974ad75867107b622f01e1ec7fda2') in 0.106557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.336557 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx
-  artifactKey: Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx using Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e30b9db74cf1b2ff267073b07dcdd49') in 0.108926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.960432 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx
-  artifactKey: Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx using Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203493fcc7e97c3803fcbb59c26f688a') in 0.106649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.240769 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx
-  artifactKey: Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx using Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0aa56163cb750d21f51faeaf860a1a') in 0.100601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.128116 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx
-  artifactKey: Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Hanging Idle.fbx using Guid(9c63b839cbbd8b645bcb00dda3a8461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0fd3989c0b9828c83acd04c9f814c3') in 0.118009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.865633 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx
-  artifactKey: Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouching Idle.fbx using Guid(de087eabebafefe4fa9ccdd46c31965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e657075aac16d0881e7aa7bf659fe2b') in 0.033444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.866629 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx
-  artifactKey: Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched To Sprinting.fbx using Guid(bf0428b9d351e6841ba5b3398fe9ce5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00f4a82758d7143435105622d75af27') in 0.137653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.782920 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx
-  artifactKey: Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx using Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1811eebff34cf165d4e56793d372c04b') in 0.114876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.132316 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx
-  artifactKey: Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouched Walking.fbx using Guid(cc6c60be100620e4baf3405099a79aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f2690055b255f3c5d759145d25a93f') in 0.105302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.414914 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx
-  artifactKey: Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Drop.fbx using Guid(412d1fc1cb43db24fb1ce0d97f90a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c118a42f8a0a946511a7e6107960c9a0') in 0.123826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.305427 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx
-  artifactKey: Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Hop Left.fbx using Guid(2169d431983b90e4da6f438808c74664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb74b78b163191a9ca684d2e10594cef') in 0.101791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.617302 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx
-  artifactKey: Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang Shimmy.fbx using Guid(f7f66455b1dc4284ea270c83594c4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90243d3fb77c68135ad1f7b6ce276d0d') in 0.125554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.557631 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx
-  artifactKey: Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang To Crouch.fbx using Guid(cf525b19bea218e4dba145d2b948defa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21393d0847a07a1750af1ecdf59b918a') in 0.117594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.778073 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx
-  artifactKey: Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Idle To Braced Hang.fbx using Guid(60e87f11c0f8e034c89fbbde3e74e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e8ba0366d838deb61bbe5e7d955085') in 0.122806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.731574 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx
-  artifactKey: Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Jump From Wall.fbx using Guid(14fce99621a23d54c920be98795dcbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f42f4ca53b79ddae162a6ba30ff77b') in 0.120451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.068123 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Run.fbx
-  artifactKey: Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Run.fbx using Guid(075bef5613ef3554bbdb0daeca252026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16aff49f27f6729d9f40565f17e79b3') in 0.110545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.645248 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Braced Hang DropAvatar.asset
-  artifactKey: Guid(bbe095e45845574489819d81bd6d3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Braced Hang DropAvatar.asset using Guid(bbe095e45845574489819d81bd6d3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fec940b67f5d31aa6a86be3b5863f4') in 0.025206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.684123 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Hanging-Drop.anim
-  artifactKey: Guid(fc19b309a048e644faffd641d1c11a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Hanging-Drop.anim using Guid(fc19b309a048e644faffd641d1c11a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeeb174ac88bae0d6f0d7474b58ae3e') in 0.038104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.559559 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Hanging_JumpLeft.anim
-  artifactKey: Guid(9ee2c65e69ecdc140a6aae826bd3d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Hanging_JumpLeft.anim using Guid(9ee2c65e69ecdc140a6aae826bd3d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539afc996bb9507e4edaf0db90bb2260') in 0.034879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.726575 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Haning-MoveLeft.anim
-  artifactKey: Guid(d6f9a6de22a75b545a97892483fa54a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Haning-MoveLeft.anim using Guid(d6f9a6de22a75b545a97892483fa54a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62405babded9d0b42e082b31f5c0172f') in 0.031426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.947260 seconds.
-  path: Assets/Player/New_Imports/Mixamo/HangingClimb-Crouched.anim
-  artifactKey: Guid(bea0916e86c2a8b47ac01c675681eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/HangingClimb-Crouched.anim using Guid(bea0916e86c2a8b47ac01c675681eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32a7be311af38a2d01a456f849bcb33') in 0.032866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.231814 seconds.
-  path: Assets/Player/New_Imports/Mixamo/mixamo.com.anim
-  artifactKey: Guid(8616ed9c6fc8d2540af7b541abfa1168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/mixamo.com.anim using Guid(8616ed9c6fc8d2540af7b541abfa1168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b002b466061ffc92255bcdb0923b7755') in 0.033713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.462718 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouch-Sprint.anim
-  artifactKey: Guid(65779596f5b567341a4613fce1240079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouch-Sprint.anim using Guid(65779596f5b567341a4613fce1240079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b559a0ab8da9c9f321d896d6e3b355') in 0.031394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.923448 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Crouch-Forward.anim
-  artifactKey: Guid(2a4f1a99f77173347b9e90e1a2bb550e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Crouch-Forward.anim using Guid(2a4f1a99f77173347b9e90e1a2bb550e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d943bf3c86c87e4f05d65517932209') in 0.027557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.866625 seconds.
-  path: Assets/Player/New_Imports/Mixamo/HangingIdle.anim
-  artifactKey: Guid(afc796f94a6e6f448ac6f4ea8c29a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/HangingIdle.anim using Guid(afc796f94a6e6f448ac6f4ea8c29a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12d69ea3c2ad129c4d7a069c0a47761') in 0.030268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.926819 seconds.
-  path: Assets/Player/New_Imports/Mixamo/ClimbStart.anim
-  artifactKey: Guid(693d5ca7b028b324d8dd63405310c838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/ClimbStart.anim using Guid(693d5ca7b028b324d8dd63405310c838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7024f73c42b714254155af2ed8c7d82e') in 0.036394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.586805 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Haning-JumpBack.anim
-  artifactKey: Guid(9eae00affbe47ec45843b47e7f3726de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Haning-JumpBack.anim using Guid(9eae00affbe47ec45843b47e7f3726de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1042e062c2ce1ce8a031e546c6578c2') in 0.039526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.500058 seconds.
-  path: Assets/Player/New_Imports/Mixamo/Running.anim
-  artifactKey: Guid(cbaffbca531ae514fa0637490d13ab10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/New_Imports/Mixamo/Running.anim using Guid(cbaffbca531ae514fa0637490d13ab10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bc04781a2a1ae7562552eebbbe65b7') in 0.028772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.885315 seconds.
-  path: Assets/Player/Animations/running.anim
-  artifactKey: Guid(2c0cd4a6fc5102b4c9170217204b0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Animations/running.anim using Guid(2c0cd4a6fc5102b4c9170217204b0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb3f4cb9c1e4ed5c933d92eb9500bc9') in 0.029228 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003176 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1239ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1080ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (470ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.6 MB.
-System memory in use after: 168.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4054.
-Total: 5.097700 ms (FindLiveObjects: 0.486300 ms CreateObjectMapping: 0.241200 ms MarkObjects: 4.345700 ms  DeleteObjects: 0.023800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002832 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1107ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1544ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (900ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1378ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (397ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (862ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (302ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.7 MB.
-System memory in use after: 168.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4057.
-Total: 3.260300 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.153300 ms MarkObjects: 2.833400 ms  DeleteObjects: 0.018200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002825 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1060ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (911ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (405ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (719ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.7 MB.
-System memory in use after: 169.0 MB.
+Unloading 3533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.7 MB.
+System memory in use after: 155.9 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4060.
-Total: 3.598300 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.153600 ms MarkObjects: 3.141200 ms  DeleteObjects: 0.057700 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3972.
+Total: 4.047600 ms (FindLiveObjects: 0.619600 ms CreateObjectMapping: 0.287600 ms MarkObjects: 2.986600 ms  DeleteObjects: 0.153100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -895,522 +134,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  path: Assets/Player/Scripts/NewMovement.cs
+  artifactKey: Guid(b9d6913506b18af4487ed1641844900d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Scripts/NewMovement.cs using Guid(b9d6913506b18af4487ed1641844900d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d513d66fc00754e91b7ad1869ef74d5') in 0.038353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.386933 seconds.
+  path: Assets/Player/Scripts/Movement.cs
+  artifactKey: Guid(b9d6913506b18af4487ed1641844900d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Scripts/Movement.cs using Guid(b9d6913506b18af4487ed1641844900d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695d9c0924251e3a059a095d26e4e5ff') in 0.022524 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002858 seconds.
+Registered in 0.002532 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.130 seconds
+- Completed reload, in  1.104 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1130ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (1105ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (963ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (412ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (310ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4063.
-Total: 4.496200 ms (FindLiveObjects: 0.290200 ms CreateObjectMapping: 0.170000 ms MarkObjects: 3.955200 ms  DeleteObjects: 0.079900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002973 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1050ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (905ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (931ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (276ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (398ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4066.
-Total: 3.327700 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.157300 ms MarkObjects: 2.903100 ms  DeleteObjects: 0.016900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002830 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1049ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (406ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4069.
-Total: 3.301500 ms (FindLiveObjects: 0.269200 ms CreateObjectMapping: 0.193300 ms MarkObjects: 2.819800 ms  DeleteObjects: 0.018100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003105 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1047ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (898ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4072.
-Total: 4.387400 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.245700 ms MarkObjects: 3.691600 ms  DeleteObjects: 0.037200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 577.262894 seconds.
-  path: Assets/Player/Player_Animations.controller
-  artifactKey: Guid(228a3acc6cd4ed549b79a85fc72bce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Player_Animations.controller using Guid(228a3acc6cd4ed549b79a85fc72bce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02838a76ffc9c94b601d40848f601693') in 0.276262 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002840 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.074 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1074ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (932ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (425ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4075.
-Total: 3.311000 ms (FindLiveObjects: 0.251000 ms CreateObjectMapping: 0.157800 ms MarkObjects: 2.883800 ms  DeleteObjects: 0.017800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002974 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1079ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (933ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (402ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4078.
-Total: 4.216300 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.156200 ms MarkObjects: 3.733500 ms  DeleteObjects: 0.068000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004122 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.039 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1039ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (887ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (388ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (293ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4081.
-Total: 3.960400 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.164500 ms MarkObjects: 3.469600 ms  DeleteObjects: 0.071500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003119 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1050ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (892ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (411ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4084.
-Total: 3.592100 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.165700 ms MarkObjects: 2.994200 ms  DeleteObjects: 0.016800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002867 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.072 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1072ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (923ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (401ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
+				BeforeProcessingInitializeOnLoad (92ms)
 				ProcessInitializeOnLoadAttributes (303ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.1 MB.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.2 MB.
+System memory in use after: 148.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4087.
-Total: 3.645300 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.165100 ms MarkObjects: 3.114000 ms  DeleteObjects: 0.061700 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3975.
+Total: 3.639000 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.168300 ms MarkObjects: 3.072000 ms  DeleteObjects: 0.136000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1425,30 +205,30 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002848 seconds.
+Registered in 0.002624 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
+- Completed reload, in  1.037 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1087ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (942ms)
+		EndReloadAssembly (892ms)
 			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (398ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
@@ -1456,95 +236,19 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (82ms)
 				ProcessInitializeOnLoadAttributes (301ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 169.1 MB.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.3 MB.
+System memory in use after: 148.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4090.
-Total: 3.977400 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.166400 ms MarkObjects: 3.524900 ms  DeleteObjects: 0.020700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 660.301507 seconds.
-  path: Assets/Player/Player.prefab
-  artifactKey: Guid(dc6d4944d5babcd49b06a51d3e363b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Player.prefab using Guid(dc6d4944d5babcd49b06a51d3e363b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8812ba7087d483b4b434e7a71c7dd89') in 2.209628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.375272 seconds.
-  path: Assets/GlobalVariables
-  artifactKey: Guid(2f3bc23c9a6b219478524b6a7574f443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GlobalVariables using Guid(2f3bc23c9a6b219478524b6a7574f443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7dad9277020abb366aa76809eb4d6f') in 0.023419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.744742 seconds.
-  path: Assets/GlobalVariables/PlayerInfo.cs
-  artifactKey: Guid(45a1a8e924c0adc4d90a342f22d26063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GlobalVariables/PlayerInfo.cs using Guid(45a1a8e924c0adc4d90a342f22d26063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07276830ac0455f16748375f3b62c8c') in 0.031012 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005111 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.222 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2223ms)
-		BeginReloadAssembly (570ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (312ms)
-		EndReloadAssembly (1591ms)
-			LoadAssemblies (313ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (677ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (489ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (371ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.0 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4130.
-Total: 8.820300 ms (FindLiveObjects: 0.415100 ms CreateObjectMapping: 0.170700 ms MarkObjects: 8.171200 ms  DeleteObjects: 0.062600 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3978.
+Total: 3.787900 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.217600 ms MarkObjects: 3.260700 ms  DeleteObjects: 0.021800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1559,120 +263,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004115 seconds.
+Registered in 0.002764 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
+- Completed reload, in  1.082 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1124ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1082ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (941ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (928ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (411ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.0 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4133.
-Total: 3.754500 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.151100 ms MarkObjects: 3.249400 ms  DeleteObjects: 0.066800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 107.721508 seconds.
-  path: Assets/GlobalVariables/PlayerInfo.cs
-  artifactKey: Guid(45a1a8e924c0adc4d90a342f22d26063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GlobalVariables/PlayerInfo.cs using Guid(45a1a8e924c0adc4d90a342f22d26063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be469d6d6cf8b943315c713c17cad07f') in 0.024985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.654902 seconds.
-  path: Assets/GlobalVariables/PlayerInfo_object.asset
-  artifactKey: Guid(a9f47e3bb50f88a48a57db34b32c4580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GlobalVariables/PlayerInfo_object.asset using Guid(a9f47e3bb50f88a48a57db34b32c4580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89010fda5ccead42a34350319c42b4a5') in 0.079339 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002957 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1093ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (939ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
+			RebuildScriptCaches (48ms)
 			SetupLoadedEditorAssemblies (394ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (301ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (295ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.0 MB.
-System memory in use after: 169.3 MB.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.3 MB.
+System memory in use after: 148.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4136.
-Total: 4.026600 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.152300 ms MarkObjects: 3.584900 ms  DeleteObjects: 0.032800 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3981.
+Total: 3.420500 ms (FindLiveObjects: 0.392500 ms CreateObjectMapping: 0.294100 ms MarkObjects: 2.713000 ms  DeleteObjects: 0.020400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1687,642 +321,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003168 seconds.
+Registered in 0.002906 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
+- Completed reload, in  1.034 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1220ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1062ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (397ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (412ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.0 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4139.
-Total: 4.061000 ms (FindLiveObjects: 0.350400 ms CreateObjectMapping: 0.367500 ms MarkObjects: 3.323600 ms  DeleteObjects: 0.018600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003249 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.126 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1127ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (974ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (406ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.0 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4142.
-Total: 3.244300 ms (FindLiveObjects: 0.260100 ms CreateObjectMapping: 0.166300 ms MarkObjects: 2.799200 ms  DeleteObjects: 0.018000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002797 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1070ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (929ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4145.
-Total: 3.628400 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.152700 ms MarkObjects: 3.097400 ms  DeleteObjects: 0.062600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002878 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1077ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (932ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (416ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4148.
-Total: 3.309000 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.167900 ms MarkObjects: 2.841100 ms  DeleteObjects: 0.018700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 752.474947 seconds.
-  path: Assets/GlobalVariables/PlayerInfo.cs
-  artifactKey: Guid(45a1a8e924c0adc4d90a342f22d26063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GlobalVariables/PlayerInfo.cs using Guid(45a1a8e924c0adc4d90a342f22d26063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a10b5461ac7aa69f31e2ac13a6e577') in 0.028010 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002788 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.048 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1048ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (905ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (401ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (310ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4151.
-Total: 4.503500 ms (FindLiveObjects: 0.402700 ms CreateObjectMapping: 0.255900 ms MarkObjects: 3.822200 ms  DeleteObjects: 0.021900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002691 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1086ms)
+	ReloadAssembly (1034ms)
 		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (938ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (387ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.0 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4154.
-Total: 3.605700 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.155900 ms MarkObjects: 3.133900 ms  DeleteObjects: 0.058800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 233.511729 seconds.
-  path: Assets/Scripts/EnemyAware.cs
-  artifactKey: Guid(1f83aefc27972a94a8f6291fe14049c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyAware.cs using Guid(1f83aefc27972a94a8f6291fe14049c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76227f7c446bcfc0b401f2429d819e4e') in 0.030801 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002783 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1042ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (899ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (891ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
+			SetupTypeCache (278ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4157.
-Total: 3.893400 ms (FindLiveObjects: 0.564600 ms CreateObjectMapping: 0.366400 ms MarkObjects: 2.935200 ms  DeleteObjects: 0.026300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002995 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (919ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (411ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4160.
-Total: 4.740400 ms (FindLiveObjects: 0.336400 ms CreateObjectMapping: 0.256400 ms MarkObjects: 4.120900 ms  DeleteObjects: 0.025900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002958 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1088ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (936ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (420ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (317ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4163.
-Total: 3.453300 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.170000 ms MarkObjects: 2.919900 ms  DeleteObjects: 0.063400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002873 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.187 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1187ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1041ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (439ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (344ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4166.
-Total: 4.311500 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.151400 ms MarkObjects: 3.727100 ms  DeleteObjects: 0.065200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003302 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\Documents\Unity\StealthGame\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1120ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (946ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (305ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (297ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.3 MB.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.4 MB.
+System memory in use after: 148.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4168.
-Total: 3.428700 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.239600 ms MarkObjects: 2.878000 ms  DeleteObjects: 0.019500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3984.
+Total: 4.124100 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.225500 ms MarkObjects: 3.563900 ms  DeleteObjects: 0.031900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2334,10 +376,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 449.138910 seconds.
-  path: Assets/Player/Materials/Player-FaceAndAcessossireis Color_Change.mat
-  artifactKey: Guid(9aabf7294e15afc4daf80abda1d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Materials/Player-FaceAndAcessossireis Color_Change.mat using Guid(9aabf7294e15afc4daf80abda1d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9569b74982a178616f3388d73b31a029') in 0.641680 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
