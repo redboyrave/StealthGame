@@ -4,41 +4,55 @@ using UnityEngine;
 
 public class CanClimbCheck : MonoBehaviour
 {
+    public Movement_Manager _movement_manager;
     public CheckLedge ColliderTop;
     public CheckLedge ColliderBottom;
-    public bool IsGrabingLedge;
-    private Movement _movement;
+    [SerializeField]private Transform LeftEdge;
+    [SerializeField]private Transform CenterEdge;
+    [SerializeField]private Transform RightEdge;
+    // public Movement _movement;
+    // public WallHang _wallhang;
+    [HideInInspector]public bool IsGrabingLedge;
     // Start is called before the first frame update
     void Start()
     {
-        _movement = GetComponentInParent<Movement>();
-        
+        BoxCollider top_col =ColliderTop.GetComponent<BoxCollider>();
+        float x_pos;
+        float y_pos;
+        x_pos = top_col.size.x/2;
+        y_pos= top_col.size.y/2;
+        LeftEdge.position = new Vector3(-x_pos,y_pos,0);
+        RightEdge.position = new Vector3(x_pos,y_pos,0);
+        CenterEdge.position = new Vector3(0,y_pos,0);        
     }
 
     void FixedUpdate()
     {   
-        if (!_movement.is_grounded){
-            Debug.Log(_movement.is_grounded);
+        check_ledge();       
+    }
+    void check_ledge(){
+        bool grounded = _movement_manager.is_grounded;
+        if(!grounded){
+            // Debug.Log("Not Grounded");
             foreach (GameObject obj in ColliderBottom.CollidedObjects){
-                if (!ColliderTop.CollidedObjects.Contains(obj)){
-                    Debug.Log("I'm good to grab");
-                    IsGrabingLedge = true;
-                    Debug.Log(_movement.is_hanging);
+                if(!(ColliderTop.CollidedObjects.Contains(obj))){
+                    // Debug.Log("Good to grab");
+                    IsGrabingLedge=true;
                     break;
                 }
                 else{
-                    IsGrabingLedge =false;
-                    Debug.Log("This is a wall mah duded");
+                    IsGrabingLedge = false;
                 }
+                
             }
-
+            
         }
-        else{
-            IsGrabingLedge = false;
-            // Debug.Log("I'm on the ground man, c'mon");
+        else
+        {
+            IsGrabingLedge= false;
         }
         if (ColliderBottom.CollidedObjects.Count == 0){
-            IsGrabingLedge =false;
+            IsGrabingLedge = false;
         }
     }
 }
