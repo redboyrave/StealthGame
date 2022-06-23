@@ -5,14 +5,19 @@ using UnityEngine;
 public class EnemyAware : MonoBehaviour
 {
     public PlayerInfo p_info;
+    public EnemyStateManager _state;
+
+    void Start(){
+        _state = GetComponent<EnemyStateManager>();
+    }
     void FixedUpdate()
     {
-        detection_radius();
+        noise_detection_radius();
     }
 
-    void detection_radius(){
-        float distance_to_player = (this.transform.position - p_info.PlayerCurrentCoordinates).magnitude;
-        if(distance_to_player<=p_info.NoiseLevel){
+    void noise_detection_radius(){
+        float distance_to_player = (this.transform.position - p_info.PlayerCurrentCoordinates).sqrMagnitude;
+        if(distance_to_player<=Mathf.Pow(p_info.NoiseLevel,2)){
             p_info.LastKnowsCoordinates = p_info.PlayerCurrentCoordinates;
             alert();
         }
@@ -21,5 +26,7 @@ public class EnemyAware : MonoBehaviour
 
     public void alert(){
         Debug.Log("I "+this.name+" have been alerted!");
+        _state.set_alert();
+
     }
 }
