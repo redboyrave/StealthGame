@@ -100,12 +100,8 @@ public class Movement : MonoBehaviour
             move_dir= Vector3.zero;
             _movement_manager._move_speed = 0;
             } 
+        _movement_manager._noise_level = movement_speed;
         
-        _movement_manager._noise.Call_Noise(move_dir.magnitude*2);
-
-        // if (_input.Jump && raycast_forward().distance <= 0.1f && is_grounded){
-            //Should play wall climb animation;
-        // }
         //Jumping Logic
         if (_movement_manager._input.Jump && _movement_manager.is_grounded){
             Debug.Log("Jump!");
@@ -120,7 +116,7 @@ public class Movement : MonoBehaviour
         else {_movement_manager.vertical_speed = 0f;}
 
         _movement_manager.rb.velocity = new Vector3(move_dir.x*movement_speed,_movement_manager.vertical_speed,move_dir.z*movement_speed);
-
+        
     }
     
 

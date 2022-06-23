@@ -9,11 +9,12 @@ public class HangDrop : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        player = GameObject.FindGameObjectsWithTag("Player");
-        foreach (GameObject obj in player){
-            obj.TryGetComponent<Movement_Manager>(out _mov_manager);
-            Debug.Log(obj);
-        }
+         _mov_manager = animator.GetComponent<Movement_Manager>();
+        // player = GameObject.FindGameObjectsWithTag("Player");
+        // foreach (GameObject obj in player){
+            // obj.TryGetComponent<Movement_Manager>(out _mov_manager);
+            // Debug.Log(obj);
+        // }
         _mov_manager.enable_move_coroutine(seconds_to_decimal(0.4f));
     }
 

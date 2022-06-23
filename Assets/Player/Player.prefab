@@ -1082,7 +1082,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2594091545009635670}
-  m_Material: {fileID: 13400000, guid: f90a33cbdcf791945805e7f89f947402, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.2
@@ -1096,11 +1096,11 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2594091545009635670}
-  m_Material: {fileID: 13400000, guid: f90a33cbdcf791945805e7f89f947402, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.35
-  m_Height: 1.2
+  m_Height: 1.22
   m_Direction: 1
   m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!114 &4386812587685897348
@@ -1150,6 +1150,7 @@ MonoBehaviour:
   _wallhang: {fileID: 3783517117613160562}
   _input: {fileID: 4386812587685897348}
   rb: {fileID: 7503470052173728432}
+  p_info: {fileID: 11400000, guid: a9f47e3bb50f88a48a57db34b32c4580, type: 2}
   _camera_ref: {fileID: 0}
   _noise: {fileID: 605640363683433091}
   _ledge: {fileID: 5829468818553672899}
@@ -1157,12 +1158,19 @@ MonoBehaviour:
   stand_cap: {fileID: 2976599055036778734}
   crouched_cap: {fileID: 5474017475926791117}
   _animator: {fileID: 7982494175712532577}
-  walk_speed: 5
+  walk_speed: 2.8
   crouch_speed: 2.5
   dash_speed: 8
   JumpHeight: 3
   JumpTime: 0.5
   JumpAceleration: 0.5
+  WalkingNoise: 4
+  CrouchModifier: 0.5
+  DashModifier: 2
+  JumpModifier: 0.2
+  LandingNoise: 0
+  HangingModifier: 0.5
+  _noise_level: 0
   vertical_speed: 0
   _move_speed: 0
   is_grounded: 0
@@ -1200,6 +1208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _movement_manager: {fileID: 6080031938279805990}
   forward_offset: 0.15
+  up_offset: 0
   LeftEdge: {fileID: 5753550388435122895}
   CenterEdge: {fileID: 1379397158109127740}
   RightEdge: {fileID: 6198325089937776618}
@@ -2752,8 +2761,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 1839767665506685904}
   m_AABB:
-    m_Center: {x: -0.00064272736, y: -0.004363587, z: -0.00015699398}
-    m_Extent: {x: 0.0016867272, y: 0.004594138, z: 0.0013845507}
+    m_Center: {x: -0.00066935184, y: -0.0044478364, z: -0.00016900769}
+    m_Extent: {x: 0.0017133518, y: 0.004678387, z: 0.0013965645}
   m_DirtyAABB: 0
 --- !u!183 &781839201107415659
 Cloth:

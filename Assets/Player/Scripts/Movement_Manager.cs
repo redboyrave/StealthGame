@@ -10,6 +10,7 @@ public class Movement_Manager : MonoBehaviour
     public WallHang _wallhang;
     public PlayerInputManager _input; 
     public Rigidbody rb;
+    public PlayerInfo p_info;
     public Transform _camera_ref;
     public MakeNoise _noise;
     public CanClimbCheck _ledge;
@@ -27,8 +28,17 @@ public class Movement_Manager : MonoBehaviour
     [SerializeField]public float JumpTime = .5f;
     [SerializeField]public float JumpAceleration = .5f;
 
+    [Header("Enemy Detection Variables")]
+    [SerializeField]private float WalkingNoise;
+    [SerializeField]private float CrouchModifier;
+    [SerializeField]private float DashModifier;
+    [SerializeField]private float JumpModifier;
+    [SerializeField]private float LandingNoise;
+    [SerializeField]private float HangingModifier;
+    [HideInInspector]public float _noise_level = 0f;
 
 
+// ANIMATION RELATED VARIABLES //
     [HideInInspector]public float vertical_speed;
     [HideInInspector]public float _move_speed = 0f;
     [HideInInspector]public bool is_grounded = false;
@@ -51,7 +61,10 @@ public class Movement_Manager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate(){
         ground_check();
+        noise_check();
         RaycastHit forward_cast = raycast_forward(chest_pos.position);
+        p_info.PlayerCurrentCoordinates = transform.position;
+        _noise.Call_Noise(_noise_level);
         if(forward_cast.collider !=null){
             is_hanging = _ledge.IsGrabingLedge; 
         }
@@ -141,6 +154,8 @@ public class Movement_Manager : MonoBehaviour
     public void char_stand(){
         stand_cap.enabled = true;
         crouched_cap.enabled =false;
+
+        //OLD METHOD CHANGED THE SIZE OF THE COLLIDERS, NOW THESE VALUES ARE ONLY HERE FOR REFERENCE;
         // cap_col.height =1.82f;
         // cap_col.radius = 0.2f;
         // cap_col.center = new Vector3(0,0.9f,0);
@@ -150,10 +165,32 @@ public class Movement_Manager : MonoBehaviour
     public void char_crouch(){
         stand_cap.enabled = false;
         crouched_cap.enabled = true;
-        // cap_col.height = 1.2f;
+        // cap_col.height = 1.22f;
         // cap_col.radius = 0.35f;
         // cap_col.center = new Vector3(0,0.6f,0);
         // // dist_to_ground = cap_col.bounds.extents.y - cap_col.center.y;
         // dist_to_ground = cap_col.height/2;
+    }
+
+    private void noise_check(){
+        float noise = 0f;
+        if(_move_speed!= 0){
+            noise += WalkingNoise;
+        if(is_crouched){
+            noise *= CrouchModifier;
+        }
+        if(is_dashing){
+           noise *= DashModifier;
+        }
+        if(!is_grounded){
+            noise *= JumpModifier;
+        }
+        if(is_hanging){
+            noise *= HangingModifier;
+        }
+        // if(is_landing;) // landing not implemented, there's currently no way of verifying
+        }
+        _noise_level = noise;
+        // _noise_level = WalkingNoise * CrouchModifier * DashModifier * HangingModifier* JumpModifier + LandingNoise ;
     }
 }
